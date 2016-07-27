@@ -1,0 +1,78 @@
+body{
+    background-color: gray;
+}
+#contant{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#contant .panel{
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#contant .panel .group{
+
+}
+
+#contant .panel .group input{
+    display: block;
+    width: 250px;
+    height: 33px;
+    padding-left: 7px;
+    font-size: 17px;
+}
+
+#contant .panel .group input:focus{
+    outline: none;
+    border:1px solid #CC865E;
+}
+
+
+#contant .panel .group label{
+    display: block;
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+#contant .login{
+    margin-top: 20px;
+}
+
+#contant .login button{
+    width: 250px;
+    background-color: #CC865E;
+}
+
+#contant .login button:hover{
+    background-color: white;
+    color: #CC865E;
+    border: 1px solid #CC865E;
+}
+#contant button{
+    height: 33px;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+}
+
+/*注册*/
+#contant .reg{
+    margin-top: 20px;
+}
+
+#contant .reg button{
+    width: 200px;
+    background-color: #466BAF;
+}
+
+#contant .reg button:hover
+{
+    background-color: white;
+    color: #466BAF;
+    /*border:  1px solid #466BAF;*/
+}

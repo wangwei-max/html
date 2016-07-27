@@ -1,0 +1,96 @@
+body
+{
+    background: url("../img/bg.jpg");
+    background-size: cover;
+}
+#header{
+    text-align: right;
+
+}
+
+#header a{
+    color: #333;
+    font-family: "arial";
+    font-size: 13px;
+    margin: 10px 7px;
+    font-weight: bolder;
+}
+
+#header a.no_weight{
+    font-weight: normal;
+}
+
+#header a.more-prodcuct
+{
+    color: white;
+    background-color: #3385ff;
+    border: 1px solid #2d78f4;
+    text-decoration: none;
+    display: inline-block;
+    width: 65px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#contant{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 400px;
+
+}
+
+#contant img{
+    width: 270px;
+    height: 129px;
+}
+
+#contant input{
+    width: 500px;
+    height: 25px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    padding-bottom: 2px;
+}
+
+#contant input:focus{
+    border-color: blue;
+}
+
+#contant a{
+    color: white;
+    background-color: #3385ff;
+    border: 1px solid #2d78f4;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    margin-left: -5px;
+    border: 1px solid #2d78f4;
+}
+
+#foot{
+    text-align: center;
+    font-size: 12px;
+}
+
+#foot .footer-header{
+    margin-bottom: 10px;
+}
+
+#foot .footer-header a{
+    color: #00c;
+    margin: 0px 5px;
+}
+
+#foot .footer-bottom{
+    color: #666;
+}
+
+#foot .footer-bottom a{
+    color: #666;
+}
+

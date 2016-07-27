@@ -52,6 +52,7 @@ body{
     background-color: white;
     color: #CC865E;
     border: 1px solid #CC865E;
+    cursor: pointer;
 }
 #contant button{
     height: 33px;
@@ -75,4 +76,5 @@ body{
     background-color: white;
     color: #466BAF;
     /*border:  1px solid #466BAF;*/
+    cursor: pointer;
 }

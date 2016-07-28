@@ -1,0 +1,117 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background: url("../images/apple.jpg");
+    background-size:cover ;
+}
+
+#header {
+    background: gray;
+    box-shadow: 0px 1px 10px black;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+#header .header-left{
+    display: inline-block;
+}
+
+#header .header-left li{
+    display: inline-block;
+    margin-left:10px ;
+}
+/*添加手*/
+#header .header-left li:hover{
+    cursor: pointer;
+}
+
+#header .header-right{
+    float: right;
+    margin-right:10px ;
+}
+
+#header .header-right li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#header .header-right li:hover{
+    cursor: pointer;
+}
+
+#body .file{
+    display: block;
+    width: 60px;
+    margin-left:40px ;
+    margin-top: 40px;
+
+}
+
+#body .file img{
+    width: 60px;
+    height: 60px;
+}
+
+#body .file p{
+    color: #ffffff;
+    text-align:center ;
+}
+
+
+
+#footer{
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+
+}
+
+#footer .dock{
+    width: 70%;
+    height: 100%;
+    line-height: 60px;
+    background: rgb(220,225,231) ;
+    display: inline-block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /*透明*/
+    opacity: 0.8;
+}
+
+#footer .dock img{
+    width: 50px;
+    height: 50px;
+}
+
+
+#footer .dock ul{
+    display: inline-block;
+}
+
+/*形变*/
+#footer .dock ul li{
+    float: left;
+
+    margin: 0px 2px;
+    /*动画秒数 和线性*/
+    -webkit-transition:0.25s linear;
+}
+
+#footer .dock ul li:hover
+{
+    cursor: pointer;
+    /*动画的反方向*/
+    -webkit-transform-origin:bottom center;
+    /*变化的倍数*/
+    -webkit-transform:scale(1.6);
+}
